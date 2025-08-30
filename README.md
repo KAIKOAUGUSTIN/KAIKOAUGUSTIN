@@ -1,5 +1,6 @@
 <h1 align="center">Kaio Augusto</h1>
-<h3 align="center">Um Brasileiro Aprendiz</h3>
+<h3 align="center">Dono da Kaio Augusto Hosting</h3>
+<h5 align="center">(Nome tenporáio)</h5>
 
 - 🔭 Trabalhando em uma rede de servidores minecraft: [Lorn Network](https://discord.gg/pdn3zkSTMa)
 
