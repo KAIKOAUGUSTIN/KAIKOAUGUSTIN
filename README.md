@@ -1,6 +1,6 @@
 <h1 align="center">Kaio Augusto</h1>
 
-- 🛢️ Dono da [Kaio Augusto Hostikng](https://kaioaugusto.com) - Nome temporário
+- 🛢️ Dono da [Kaio Augusto Hosting](https://kaioaugusto.com) - Nome temporário
 
 - 🔭 Trabalhando em uma rede de servidores minecraft: [Lorn Network](https://discord.gg/pdn3zkSTMa)
 
