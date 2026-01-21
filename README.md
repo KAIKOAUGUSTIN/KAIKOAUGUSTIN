@@ -4,11 +4,11 @@
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&reversal=false&text=Kaio%20Augusto&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=35&stroke=-&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&color=152837"  />
 </div>
 
-###
+
 
 <p align="left">👋 Hello, I'm Kaio, but you can call me Comkas<br>🌱 Learning about AI with a customade Home Assistant AI<br><br>Projects:<br>🩵Heartbeat.py - A simple script to chech my project server status<br>⚔️ Lorn Network (Archived) - A complete Minecraft Server ready to deploy, call me if you want to try it <br>🆘Lorn Network Discord bot (Archived) - Private repo of my Discord bot source code<br>🤖 Juca - Private repo of my Home Assistant AI source code<br><br>Skills:</p>
 
-###
+
 
 <br clear="both">
 
@@ -36,7 +36,7 @@
   <img src="https://skillicons.dev/icons?i=bots" height="40" alt="abbrobotstudio logo"  />
 </div>
 
-###
+
 
 <br clear="both">
 
@@ -46,7 +46,7 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/KAIKOAUGUSTIN/KAIKOAUGUSTIN/output/pacman-contribution-graph.svg">
 </picture>
 
-###
+
 
 <br clear="both">
 
