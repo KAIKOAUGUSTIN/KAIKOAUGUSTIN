@@ -6,7 +6,7 @@
 
 
 
-<p align="left">👋 Hello, I'm Kaio, but you can call me Comkas<br>🌱 Learning about AI with a customade Home Assistant AI<br><br>Projects:<br>🩵Heartbeat.py - A simple script to chech my project server status<br>⚔️ [Lorn Network (Archived)](https://discord.gg/pdn3zkSTMa) - A complete Minecraft Server ready to deploy, call me if you want to try it <br>🆘 [Lorn Network Discord bot (Archived)](https://discord.gg/pdn3zkSTMa) - Private repo of my Discord bot source code<br>🤖 Juca - Private repo of my Home Assistant AI source code<br><br>Skills:</p>
+<p align="left">👋 Hello, I'm Kaio, but you can call me Comkas<br>🌱 Learning about AI with a customade Home Assistant AI<br><br>Projects:<br>🩵Heartbeat.py - A simple script to chech my project server status<br>⚔️ [Lorn Network)](https://discord.gg/pdn3zkSTMa) (Archived) - A complete Minecraft Server ready to deploy, call me if you want to try it <br>🆘 [Lorn Network Discord bot](https://discord.gg/pdn3zkSTMa) (Archived) - Private repo of my Discord bot source code<br>🤖 Juca - Private repo of my Home Assistant AI source code<br><br>Skills:</p>
 
 
 
