@@ -6,7 +6,7 @@
 
 
 
-<p align="left">👋 Hello, I'm Kaio, but you can call me Comkas<br>🌱 Learning about AI with a customade Home Assistant AI<br><br>Projects:<br>🩵 <a href="https://github.com/KAIKOAUGUSTIN/heartbeat" target="_blank" rel="noreferrer external">Heartbeat.py</a> - A simple script to chech my project server status<br>⚔️ <a href="https://discord.gg/pdn3zkSTMa" target="_blank" rel="noreferrer external">Lorn Network</a> (Archived) - A complete Minecraft Server ready to deploy, call me if you want to try it <br>🆘 <a href="https://discord.gg/pdn3zkSTMa" target="_blank" rel="noreferrer external">Lorn Network Discord Bot</a> (Archived) - Private repo of my Discord bot source code<br>📶 <a href="https://github.com/KAIKOAUGUSTIN/dnscript" target="_blank" rel="noreferrer external">Cloudflare DDNS Updater</a> - A Cloudflare DDNS Script Updater<br>🤖 Juca - Private repo of my Home Assistant AI source code<br><br>Skills:</p>
+<p align="left">👋 Hello, I'm Kaio, but you can call me Comkas<br>🌱 Learning about AI with a customade Home Assistant AI<br><br>Projects:<br>🎞️ <a href="https://github.com/KAIKOAUGUSTIN/Anamorph" target="_blank" rel="noreferrer external">Anamorph</a> - Projection mapping for one canvas and any number of projectors: corner pin, mesh warp, masks and soft-edge blending (Windows, macOS and Linux)<br>📶 <a href="https://github.com/KAIKOAUGUSTIN/cloudflare-ddns" target="_blank" rel="noreferrer external">Cloudflare DDNS Updater</a> - Keeps Cloudflare DNS records in sync with your public IP, running as a systemd service<br>🩵 <a href="https://github.com/KAIKOAUGUSTIN/heartbeat" target="_blank" rel="noreferrer external">Heartbeat.py</a> - A simple script to check my server status<br>📚 <a href="https://kaikoaugustin.github.io/KAIKOAUGUSTIN/wiki/" target="_blank" rel="noreferrer external">Minecraft plugin wikis</a> - Guides for my Paper plugins Míssil Teleguiado and Manhunt*<br><br>Skills:</p>
 
 
 
@@ -24,6 +24,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" height="40" alt="qt logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg" height="40" alt="opengl logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
   <img width="12" />
