@@ -110,6 +110,22 @@ Confira, nesta ordem:
 
 **Quebrei um equipamento. Perdi?** Não: quebrar devolve o item do plugin e o que estava guardado dentro (no modo criativo nada cai).
 
+**A bancada não faz o item (ou não acho a receita).** Use a tela **Fabricar** (`/sam fabricar` ou o botão no `/sam`): ela mostra o que falta e faz o item com o que está no inventário.
+
+## Bedrock (celular, console, Windows)
+
+**Jogo no Bedrock. Funciona?** Sim, pelo Geyser. Veja [Jogar no Bedrock](Bedrock.md) para o que muda nos controles.
+
+**Como troco o modo da besta sem a tecla F?** Agache e dê um toque/clique esquerdo com a besta na mão, ou use o botão **Modo da besta** no `/sam`.
+
+**No menu, o botão de número só diminui.** O servidor não sabe que você está no Bedrock. Veja com `/sam bedrock` e peça a um admin `/sam bedrock <seu nome> sim`. Aí o botão abre a tela de ajuste, com − e +.
+
+**Os itens do plugin aparecem como fragmento de eco, sem nome.** O Geyser não carregou os itens do Míssil. O admin precisa pôr os arquivos de `plugins/Missil/geyser/` nas pastas do Geyser e reiniciar (veja [a instalação](Bedrock.md#para-o-admin-instalação)).
+
+**Os modelos aparecem fora do lugar ou do tamanho errado.** O admin calibra com `/sam bedrock calibrar` (veja [Calibrar os modelos](Bedrock.md#calibrar-os-modelos)).
+
+**Não consigo mais entrar pelo Bedrock (depois de 27 de outubro de 2026).** O Geyser do servidor precisa estar atualizado e com o suporte a NetherNet ligado. Isso é com o admin: veja o [aviso do Geyser](https://geysermc.org/blog/preparing-for-nethernet).
+
 ---
 
-← [Administração](Administracao.md) · [Início](README.md)
+← [Administração](Administracao.md) · Próximo: [Jogar no Bedrock](Bedrock.md) →

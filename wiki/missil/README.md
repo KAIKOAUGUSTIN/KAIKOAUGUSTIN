@@ -1,6 +1,6 @@
 # Wiki do Míssil Teleguiado
 
-Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.2.0** (Minecraft Paper 26.3).
+Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.3.0** (Minecraft Paper 26.3). Joga no celular, console ou Windows? Veja [Jogar no Bedrock](Bedrock.md).
 
 ![Exemplo de base completa](img/esquemas/base-exemplo.svg)
 
@@ -23,12 +23,14 @@ Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do s
 | <img src="img/icones/base_drones.svg" width="36"> | [Drones](Drones.md) | Patrulha armada com rota (contra inimigos e mobs), reconhecimento que alimenta o radar e kamikaze (sozinho ou pilotado). Bateria, carga, câmera e pilotagem de cada drone. |
 | <img src="img/icones/ciws.svg" width="36"> | [Guerra eletrônica e CIWS](Guerra-Eletronica-e-CIWS.md) | Flare, chaff, dispensador, bloqueadores de radar e a torreta CIWS que derruba o que chega perto. |
 | <img src="img/icones/sirene.svg" width="36"> | [EMP e alertas da base](EMP-e-Alertas.md) | A ogiva que desliga equipamentos sem quebrar nada, a sirene e o Bloco de Ação para circuitos de redstone. |
+| <img src="img/icones/combustivel_foguete.svg" width="36"> | [Jogar no Bedrock (Geyser)](Bedrock.md) | Celular, console e Windows pelo Geyser: o que muda nos controles, a tela de ajuste, a tela Fabricar e como o admin instala. |
 
 ## Consulta rápida
 
 - [Comandos e permissões](Comandos-e-Permissoes.md): todos os `/sam ...`.
 - [Perguntas frequentes](Perguntas-Frequentes.md): "meu radar não atira", "sem comunicação", "o silo não lança" e outras.
 - [Administração](Administracao.md): para os admins do servidor (chaves de liga/desliga e o `config.yml`).
+- [Jogar no Bedrock](Bedrock.md): Geyser, Floodgate e Velocity, passo a passo.
 
 ## Três regras que valem para tudo
 

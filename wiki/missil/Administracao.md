@@ -7,8 +7,9 @@ Esta página é para quem administra o servidor (permissão `missil.admin`).
 ## Instalação
 
 - Servidor **Paper 26.3** com **Java 25**.
-- Copie `Missil-2.1.0.jar` para a pasta `plugins/` e reinicie. Na primeira vez são criados `plugins/Missil/config.yml` e `plugins/Missil/receitas.yml`.
+- Copie `Missil-2.3.0.jar` para a pasta `plugins/` e reinicie. Na primeira vez são criados `plugins/Missil/config.yml` e `plugins/Missil/receitas.yml`.
 - Para compilar do código: `./gradlew build` (o jar sai em `build/libs/`).
+- Jogadores Bedrock (opcional): veja [Jogar no Bedrock](Bedrock.md#para-o-admin-instalação). O Geyser e o Floodgate não são obrigatórios.
 
 ## O menu de administração
 
@@ -22,10 +23,10 @@ Esta página é para quem administra o servidor (permissão `missil.admin`).
 | Munição infinita (todos) | `sam.lancador.municao-infinita` | Para os lançadores sem valor próprio. |
 | Política da rede | `sam.rede.politica` | `DISTRIBUIR` (um míssil por alvo por vez) ou `CONCENTRAR` (salva no alvo mais perto). |
 | Alvos de radares novos | `sam.radar.alvos-padrao` | Modo com que cada radar novo começa. |
-| Recarga dos lançadores | `sam.lancador.cooldown` | Esquerdo −1 s, direito +1 s. |
+| Recarga dos lançadores | `sam.lancador.cooldown` | Esquerdo −1 s, direito +1 s (no Bedrock, abre a tela de ajuste). |
 | Debug no console | `debug` | Registra cada lançamento e o resultado. |
 | Recarregar config.yml | — | Relê o arquivo do disco. |
-| Dar itens | — | Pegue qualquer item do plugin (Shift + clique: 16). |
+| Dar itens | — | Pegue qualquer item do plugin (Shift + clique: 16; no Bedrock, um botão escolhe 1, 16 ou 64). |
 | Radares / Lançadores / Silos / Comportas de todos | — | As listas com os equipamentos de todo mundo. |
 | Drones | `drones.ativo` | Desligado, nenhuma base lança; os que estão no ar voltam. |
 | Radar antidrone | `sam.radar.antidrone` | Radares atacam drones e kamikazes inimigos. |
@@ -69,7 +70,7 @@ Tudo é ajustável, inclusive as mensagens (em formato MiniMessage). As seções
 | Seção | O que tem |
 |---|---|
 | `fisica`, `limites` | gravidade, ar, máximo de mísseis no ar ao mesmo tempo |
-| `besta` | modo padrão, `receita-quantidade` (quantos foguetes saem quando a receita não diz), trava (alcance, cones, tempo, Multishot), anti-míssil, física do foguete, explosão, FPV (câmera e o que acontece ao sair: `BALISTICO` ou `AUTODESTRUIR`) |
+| `besta` | modo padrão, `trocar-modo-shift-f` e `trocar-modo-shift-clique` (agachado + clique esquerdo), `receita-quantidade` (quantos foguetes saem quando a receita não diz), trava (alcance, cones, tempo, Multishot), anti-míssil, física do foguete, explosão, FPV (câmera e o que acontece ao sair: `BALISTICO` ou `AUTODESTRUIR`) |
 | `sam` | radar (alcance, varredura, linha de visada, mísseis por alvo, modo padrão, antidrone, antimíssil), ataque terrestre, rede (distâncias, auto-conectar, política), lançador (munição infinita, recarga, alcances), física e explosão do míssil |
 | `comporta` | tempo para abrir e para fechar, distância da ligação |
 | `balistico` | alcance mínimo e de cada nível do míssil (`alcance-max-por-nivel`), recarga, ogiva (`potencia-por-tnt`, `tnt-maximo`, `potencia-maxima`, `escala-cratera`), arco, explosão |
@@ -81,6 +82,7 @@ Tudo é ajustável, inclusive as mensagens (em formato MiniMessage). As seções
 | `ciws` | alcance, ritmo, chances perto e longe, dano em aeronaves e barcos |
 | `emp` | `raio` (64 m) e `duracao` (60 s) |
 | `alertas` | quanto tempo um alerta fica ligado, raio máximo, sirene e Bloco de Ação |
+| `bedrock` | jogadores Bedrock pelo Geyser: `ativo`, os modelos (`max-cubos-por-peca`, `ajuste-altura`, `ajuste-tamanho`), `fpv-ajuste-olho` e `exportar-para-geyser` (veja [Bedrock](Bedrock.md#configuração)) |
 | `avisos` | aviso de radar e de míssil chegando para quem é alvo |
 | `mensagens` | todos os textos do plugin |
 
@@ -134,6 +136,8 @@ missil_balistico_3:
 | `plugins/Missil/sites.yml` | todos os equipamentos e as configurações de cada um: radares (modo, ligações), lançadores, silos (alvo, ogiva), comportas, mesas (modo do mapa), satélites (posição, destino, vida), bases de drones (rota, altura, patrulha, alvos escolhidos, drones carregando, drones esperando espaço), CIWS e bloqueadores, sirenes e blocos de ação, e os aliados |
 | `plugins/Missil/terreno.dat` | o relevo do mapa do satélite |
 | `plugins/Missil/fpv-pendentes.yml` | devolve o jogador ao lugar certo se o servidor cair durante um voo FPV |
+| `plugins/Missil/bedrock.yml` | os jogadores marcados à mão como Bedrock ou Java (`/sam bedrock <jogador> sim\|nao`) |
+| `plugins/Missil/geyser/` | o mapeamento e o pacote de ícones para o Geyser (veja [Bedrock](Bedrock.md#para-o-admin-instalação)) |
 
 ## Autoteste
 

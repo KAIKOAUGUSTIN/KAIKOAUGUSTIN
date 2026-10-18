@@ -11,7 +11,7 @@ Uma **besta comum** carregada com o **[Foguete Teleguiado](Receitas.md#foguete-t
 | **TELEGUIADO** (padrão) | Você mira, espera travar e dispara. O foguete persegue o alvo sozinho. |
 | **MANUAL FPV** | Ao disparar, a sua câmera vai junto com o foguete e ele vira para onde você olha. |
 
-**Para trocar o modo:** com a besta na mão, aperte **Shift + F** (trocar de mão agachado). O modo fica salvo na própria besta.
+**Para trocar o modo:** com a besta na mão, aperte **Shift + F** (trocar de mão agachado), ou **agache e dê um clique esquerdo** (é o jeito no Bedrock, onde não há a tecla F; segurar o clique troca uma vez só), ou use o botão **Modo da besta** no [menu `/sam`](Menu.md#modo-da-besta). O modo fica salvo na própria besta.
 
 O combustível é a **duração de voo** do foguete (1, 2 ou 3 pólvoras na receita): mais pólvora, mais tempo de motor ligado.
 

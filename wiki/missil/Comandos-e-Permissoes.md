@@ -26,6 +26,8 @@ Todos os comandos começam com **`/sam`** (também funciona `/missil`). Os que d
 | `/sam confiar <jogador>` | Torna o jogador seu aliado. |
 | `/sam desconfiar <jogador>` | Tira o jogador dos aliados. |
 | `/sam aliados` | Lista os seus aliados. |
+| `/sam fabricar` | Abre a tela [Fabricar](Menu.md#fabricar): faz os itens do plugin com o que está no inventário. |
+| `/sam bedrock` | Diz se você está sendo tratado como jogador [Bedrock](Bedrock.md) e como o servidor reconheceu. |
 
 ## Aliados
 
@@ -46,6 +48,10 @@ Precisa da permissão `missil.admin` (os operadores do servidor têm).
 | `/sam admin municao-infinita padrao` | O lançador olhado volta a usar o valor do config. |
 | `/sam admin cooldown <segundos> [global]` | Recarga do lançador olhado (ou de todos). |
 | `/sam admin cooldown padrao` | O lançador olhado volta a usar a recarga do config. |
+| `/sam bedrock` | Também lista quem está no Bedrock agora. |
+| `/sam bedrock <jogador> [sim\|nao\|auto]` | Mostra ou marca à mão se o jogador está no Bedrock (`auto` volta à detecção). |
+| `/sam bedrock exportar` | Gera de novo os arquivos do Geyser em `plugins/Missil/geyser/` (e copia para o Geyser do mesmo servidor). |
+| `/sam bedrock calibrar` | Blocos de calibração dos modelos do Bedrock por 25 s (veja [Bedrock](Bedrock.md#calibrar-os-modelos)). |
 | `/sam admin reload` | Relê o `config.yml` e o `receitas.yml`, e mostra o resumo das receitas (quantas carregaram e quantas têm erro). |
 | `/sam teste [cenário]` | Autoteste dentro do servidor. **Use num mundo de teste**: ele monta construções e explode coisas. |
 

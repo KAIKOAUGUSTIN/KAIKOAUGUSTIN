@@ -18,6 +18,7 @@ Todas as receitas são feitas numa **bancada de trabalho** comum e aparecem no s
 - **Sem forma:** quando a lista de itens diz isso, os itens podem ir em qualquer casa da grade.
 - **Os itens que brilham são do plugin**: o [Combustível de Foguete](#combustível-de-foguete) (um frasco de mel brilhando) e o [Circuito de Guiagem](#circuito-de-guiagem) (um comparador brilhando). Faça eles antes. O comparador que não brilha é o comparador comum do jogo. Um item do plugin só entra na casa que pede aquele item: um Míssil SAM, por exemplo, não serve de ingrediente, e um fragmento de eco comum não substitui o combustível.
 - **Duração de voo = combustível.** O Foguete Teleguiado, o Míssil SAM e o Míssil Balístico têm "duração de voo" 1, 2 ou 3, como os fogos de artifício. No Foguete Teleguiado ela vem da quantidade de pólvora na receita. O Míssil SAM sai com duração 3. O Míssil Balístico tem uma receita para cada nível: o nível é a duração e define o alcance.
+- **Sem bancada:** a tela **Fabricar** do `/sam` (ou `/sam fabricar`) faz qualquer receita com o que está no inventário e mostra o que falta. No Bedrock as receitas também aparecem na bancada (veja [Jogar no Bedrock](Bedrock.md)).
 - O admin também entrega qualquer item com `/sam dar` (veja [Comandos](Comandos-e-Permissoes.md)).
 - Ícones e textura da bancada: Minecraft (Mojang), via [minecraft.wiki](https://minecraft.wiki/w/Category:Item_icons).
 

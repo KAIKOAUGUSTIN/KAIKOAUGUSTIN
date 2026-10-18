@@ -15,6 +15,22 @@ Os números amarelos nos desenhos abaixo correspondem à legenda de cada tela.
 
 ![Painel do /sam](img/menus/painel.svg)
 
+## Fabricar
+
+Todas as receitas do servidor, cada uma com o que pede e quanto você tem. Um clique faz o item com o que está no inventário, sem a bancada. Também abre com `/sam fabricar`.
+
+![Tela Fabricar](img/menus/fabricar.svg)
+
+## Modo da besta
+
+Troca o modo da besta que está na sua mão principal (Teleguiado ↔ Manual FPV), o mesmo que **Shift + F** ou **agachado + clique esquerdo** com ela. Veja [Besta](Besta.md).
+
+## Tela de ajuste (Bedrock)
+
+No Bedrock só existe o toque (clique esquerdo) nos menus. Para quem joga lá, os botões de número que no Java usam esquerdo/direito abrem esta tela: a altura e o raio da base de drones, o raio da sirene e do bloco de ação, e a recarga do lançador e a global (admin). No Java nada muda. Veja [Jogar no Bedrock](Bedrock.md).
+
+![Tela de ajuste](img/menus/ajuste.svg)
+
 ## Radares, rede e lançadores
 
 | Radar | Rede do radar |
