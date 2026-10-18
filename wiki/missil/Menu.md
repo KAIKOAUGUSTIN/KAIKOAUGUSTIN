@@ -45,7 +45,11 @@ Veja [Satélite](Satelite.md).
 |:---:|:---:|
 | ![Tela da Base de Drones](img/menus/base-drones.svg) | ![Tela de missão](img/menus/missao-drone.svg) |
 
-Veja [Drones](Drones.md).
+| Drones da base | Um drone |
+|:---:|:---:|
+| ![Tela Drones da base](img/menus/drones-da-base.svg) | ![Tela de um drone](img/menus/drone.svg) |
+
+A base, os drones da base e a tela de um drone se atualizam sozinhas a cada segundo. Veja [Drones](Drones.md).
 
 ## Defesa
 

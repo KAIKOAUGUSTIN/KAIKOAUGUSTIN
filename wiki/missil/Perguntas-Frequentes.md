@@ -65,12 +65,20 @@ Confira, nesta ordem:
 - Tem **flechas** na base?
 - Tem alguém a até 256 m da base ou da rota? Sem gente por perto eles ficam guardados.
 - O céu em cima da base está livre (ou tem uma comporta)?
-- O drone acabou de pousar? Ele recarrega 20 s.
+- O drone está carregando? Depois de pousar, ele carrega o que falta da bateria (até 20 s) e só sai cheio. O menu da base mostra quanto falta.
 - Um EMP pegou a base, ou o admin desligou os drones?
 
 **O kamikaze não sai.** Precisa ter um Drone Kamikaze **e TNT** na base, o alvo precisa estar a até 1200 m dela e você precisa de comunicação.
 
 **Meu drone caiu e o item sumiu.** Drone derrubado se perde. O chat diz quem derrubou.
+
+**Como vejo a bateria dos drones?** No menu da base, ou em **Drones da base**: cada drone no ar mostra a bateria e o tempo de voo, e cada um carregando mostra quanto falta. Veja [Drones da base](Drones.md#drones-da-base).
+
+**A patrulha atira nos meus animais?** Não. Animais vêm desligados, e os domesticados por você ou pelos aliados nunca são alvo. Mobs com etiqueta de nome também ficam em paz. Veja [Alvos da patrulha](Drones.md#alvos-da-patrulha).
+
+**A patrulha não atira nos zumbis.** Confira **Atirar em monstros** no menu da base. Ela só voa com alguém a até 256 m da base ou da rota, e precisa de flechas.
+
+**Como vejo pela câmera do drone?** Menu da base → **Drones da base** → clique no drone → **Ver câmera**. Shift sai.
 
 ## Defesa e alertas
 

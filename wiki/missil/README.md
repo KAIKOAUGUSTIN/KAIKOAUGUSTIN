@@ -1,6 +1,6 @@
 # Wiki do Míssil Teleguiado
 
-Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.1.0** (Minecraft Paper 26.3).
+Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.2.0** (Minecraft Paper 26.3).
 
 ![Exemplo de base completa](img/esquemas/base-exemplo.svg)
 
@@ -20,7 +20,7 @@ Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do s
 | <img src="img/icones/silo.svg" width="36"> | [Silo e Míssil Balístico](Silo-e-Missil-Balistico.md) | Um míssil que vai até as coordenadas que você escolher, com ogiva de TNT ou EMP. |
 | <img src="img/icones/comporta.svg" width="36"> | [Comportas e Ferramenta de Link](Comportas-e-Ferramenta-de-Link.md) | Esconda lançadores, silos e bases debaixo da terra. Ligue radares, lançadores e comportas. |
 | <img src="img/icones/satelite.svg" width="36"> | [Satélite](Satelite.md) | Comanda a base de longe, mostra um mapa de 5000 m e avisa de lançamentos. Pode ser derrubado. |
-| <img src="img/icones/base_drones.svg" width="36"> | [Drones](Drones.md) | Patrulha armada com rota, reconhecimento que alimenta o radar e kamikaze (sozinho ou pilotado). |
+| <img src="img/icones/base_drones.svg" width="36"> | [Drones](Drones.md) | Patrulha armada com rota (contra inimigos e mobs), reconhecimento que alimenta o radar e kamikaze (sozinho ou pilotado). Bateria, carga, câmera e pilotagem de cada drone. |
 | <img src="img/icones/ciws.svg" width="36"> | [Guerra eletrônica e CIWS](Guerra-Eletronica-e-CIWS.md) | Flare, chaff, dispensador, bloqueadores de radar e a torreta CIWS que derruba o que chega perto. |
 | <img src="img/icones/sirene.svg" width="36"> | [EMP e alertas da base](EMP-e-Alertas.md) | A ogiva que desliga equipamentos sem quebrar nada, a sirene e o Bloco de Ação para circuitos de redstone. |
 

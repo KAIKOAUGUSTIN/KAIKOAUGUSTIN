@@ -76,7 +76,7 @@ Tudo é ajustável, inclusive as mensagens (em formato MiniMessage). As seções
 | `monitor` | Mesa de Radar: alcance para achar o radar, atualização, margem, relevo, aliados, rastro, `rotacao` (se o mapa aparecer girado) |
 | `comunicacao` | `exigir-satelite` e `alcance-radio` (500 m) |
 | `satelite`, `antissatelite` | cobertura, altitude, vida, velocidade, alerta antecipado, mapa; alcance, dano e raio do antissatélite |
-| `drones` | patrulha, reconhecimento e kamikaze: vida, velocidade, bateria, altura, rota, flechas, alcances, TNT |
+| `drones` | patrulha, reconhecimento e kamikaze: vida, velocidade, bateria, `recarga` (de 0 a 100%; o drone carrega só o que falta), altura, rota, flechas, alcances, TNT, e os alvos da patrulha (`patrulha.alvos`: `jogadores`, `monstros`, `animais`, `poupar-com-nome` e a lista `ignorar`, o padrão das bases que não mudaram no menu) |
 | `guerra-eletronica` | flare, chaff, dispensador e bloqueadores |
 | `ciws` | alcance, ritmo, chances perto e longe, dano em aeronaves e barcos |
 | `emp` | `raio` (64 m) e `duracao` (60 s) |
@@ -131,7 +131,7 @@ missil_balistico_3:
 | Arquivo | O que guarda |
 |---|---|
 | `plugins/Missil/receitas.yml` | as receitas (veja [Receitas](#receitas-receitasyml)) |
-| `plugins/Missil/sites.yml` | todos os equipamentos e as configurações de cada um: radares (modo, ligações), lançadores, silos (alvo, ogiva), comportas, mesas (modo do mapa), satélites (posição, destino, vida), bases de drones (rota, altura, patrulha, drones esperando espaço), CIWS e bloqueadores, sirenes e blocos de ação, e os aliados |
+| `plugins/Missil/sites.yml` | todos os equipamentos e as configurações de cada um: radares (modo, ligações), lançadores, silos (alvo, ogiva), comportas, mesas (modo do mapa), satélites (posição, destino, vida), bases de drones (rota, altura, patrulha, alvos escolhidos, drones carregando, drones esperando espaço), CIWS e bloqueadores, sirenes e blocos de ação, e os aliados |
 | `plugins/Missil/terreno.dat` | o relevo do mapa do satélite |
 | `plugins/Missil/fpv-pendentes.yml` | devolve o jogador ao lugar certo se o servidor cair durante um voo FPV |
 
