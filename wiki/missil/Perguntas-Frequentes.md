@@ -78,6 +78,8 @@ Confira, nesta ordem:
 
 **A patrulha não atira nos zumbis.** Confira **Atirar em monstros** no menu da base. Ela só voa com alguém a até 256 m da base ou da rota, e precisa de flechas.
 
+**Posso pôr flechas com poção ou espectrais na base?** Pode. O drone atira cada uma com o seu efeito, na ordem dos slots da base. Veja [Patrulha](Drones.md#patrulha).
+
 **Como vejo pela câmera do drone?** Menu da base → **Drones da base** → clique no drone → **Ver câmera**. Shift sai.
 
 ## Defesa e alertas

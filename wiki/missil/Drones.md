@@ -14,7 +14,7 @@ Uma **Base de Drones** guarda e lança três drones:
 
 ## A Base de Drones
 
-- É uma **bancada automática (crafter)** que não fabrica nada. Coloque e ponha dentro **drones**, **flechas** (munição da patrulha) e **TNT** (ogiva dos kamikazes). Só esses itens entram, e funis não tiram nada dela.
+- É uma **bancada automática (crafter)** que não fabrica nada. Coloque e ponha dentro **drones**, **flechas** (munição da patrulha: normais, espectrais ou com poção) e **TNT** (ogiva dos kamikazes). Só esses itens entram, e funis não tiram nada dela.
 - Gerencie com **`/sam drones`** (olhando para a base, abre ela) ou `/sam` → **Bases de Drones**.
 - Os drones saem voando **para cima**: deixe o céu livre ou ponha uma [Comporta](Comportas-e-Ferramenta-de-Link.md) em cima, que abre sozinha quando um drone sai ou pousa.
 
@@ -45,6 +45,8 @@ A tela da base se atualiza sozinha a cada segundo. Os ícones da patrulha e do r
   - pelo mapa do satélite: marque o ponto → **Drones** → a base → **Adicionar à rota da patrulha**.
 - **Altura:** 20 m acima do terreno (muda por base no menu, de 5 em 5 m). O drone olha o chão embaixo e até 24 m à frente: sobe antes de chegar num morro e nunca fica a menos de 3 m do chão.
 - **Ataque:** alvos a até **32 m**, com linha de visada. O drone para a uns 12 m do alvo e atira **1 flecha por segundo**, com a mira (e a imprecisão) de um esqueleto. Cada drone leva até 32 flechas da base. As flechas não podem ser pegas e não ferem você, seus aliados nem os drones de vocês.
+- **Flechas com efeito:** flechas **espectrais** (o alvo fica brilhando) e **com poção** (veneno, lentidão, fraqueza, dano...) também valem. O drone leva as flechas **na ordem dos slots da base** e atira na mesma ordem, cada uma com o seu efeito. Ponha as que você quer que saiam primeiro nos primeiros slots. As que sobram voltam para a base com o efeito. O menu da base mostra quantas são com efeito, e a tela do drone e a barra da câmera mostram qual é a próxima.
+  - Lembre que poção de cura fere mortos-vivos (zumbis, esqueletos) e veneno não pega neles.
 - **Volta para a base** com pouca vida, pouca bateria (5 min de voo), sem flechas ou quando você clica em **Chamar todos de volta**. A tela mostra o motivo, como "Voltando: bateria baixa".
 
 ### Alvos da patrulha
