@@ -122,6 +122,8 @@ Confira, nesta ordem:
 
 **Os itens do plugin aparecem como fragmento de eco, sem nome.** O Geyser não carregou os itens do Míssil. O admin precisa pôr os arquivos de `plugins/Missil/geyser/` nas pastas do Geyser e reiniciar (veja [a instalação](Bedrock.md#para-o-admin-instalação)).
 
+**Não vejo nenhum modelo (míssil, drone, satélite...).** O Bedrock só desenha os modelos com o pacote do Míssil da mesma versão do plugin. O admin copia de novo os dois arquivos de `plugins/Missil/geyser/` para o Geyser e o reinicia (veja [Não vejo os modelos](Bedrock.md#não-vejo-os-modelos)).
+
 **Os modelos aparecem fora do lugar ou do tamanho errado.** O admin calibra com `/sam bedrock calibrar` (veja [Calibrar os modelos](Bedrock.md#calibrar-os-modelos)).
 
 **Não consigo mais entrar pelo Bedrock (depois de 27 de outubro de 2026).** O Geyser do servidor precisa estar atualizado e com o suporte a NetherNet ligado. Isso é com o admin: veja o [aviso do Geyser](https://geysermc.org/blog/preparing-for-nethernet).

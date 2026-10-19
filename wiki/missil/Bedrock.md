@@ -2,7 +2,7 @@
 
 # Jogar no Bedrock (Geyser)
 
-Quem joga no **celular, console ou Windows** (Minecraft Bedrock) entra no servidor pelo [Geyser](https://geysermc.org). Desde a **2.3.0** o Míssil funciona para esses jogadores também: os modelos aparecem, os itens têm nome e ícone, as receitas aparecem na bancada, os menus funcionam só com o toque e dá para pilotar o FPV e os drones.
+Quem joga no **celular, console ou Windows** (Minecraft Bedrock) entra no servidor pelo [Geyser](https://geysermc.org). Desde a **2.3.0** o Míssil funciona para esses jogadores também (e desde a **2.3.1** os modelos aparecem de verdade no aparelho): os modelos aparecem, os itens têm nome e ícone, as receitas aparecem na bancada, os menus funcionam só com o toque e dá para pilotar o FPV e os drones.
 
 ## Para quem joga
 
@@ -16,7 +16,7 @@ Quase tudo funciona igual ao Java. As diferenças são estas:
 | Bancada de trabalho | Bancada também, ou a tela **Fabricar** do `/sam` (veja abaixo) |
 
 - **FPV e câmera dos drones:** girar a tela pilota, o toque/clique esquerdo atira e **agachar sai**, como no Java.
-- **Modelos:** mísseis, drones, satélite, CIWS, radar, silo e chamarizes aparecem refeitos com blocos. Ficam um pouco mais "quadrados" que no Java. O brilho dos chamarizes não aparece.
+- **Modelos:** mísseis, drones, satélite, CIWS, radar, silo e chamarizes aparecem refeitos com cubos. Ficam um pouco mais "quadrados" que no Java. O brilho dos chamarizes não aparece. Se você não vê nenhum modelo, veja [Não vejo os modelos](#não-vejo-os-modelos).
 - **Itens do plugin:** os mísseis, drones, chamarizes e componentes têm item próprio, com nome e ícone. Os que são blocos (radar, lançador, silo...) aparecem como o bloco comum, para dar para colocar.
 - **`/sam bedrock`** diz se o servidor está tratando você como Bedrock. Se disser "Java" e você está no Bedrock, peça a um admin para usar `/sam bedrock <seu nome> sim`.
 
@@ -39,7 +39,11 @@ O Míssil gera dois arquivos em `plugins/Missil/geyser/`:
 - `missil-geyser-mappings.json`: os itens do plugin para o Bedrock;
 - `Missil.mcpack`: os ícones desses itens.
 
-Eles aparecem quando o Geyser ou o Floodgate roda no mesmo servidor, quando entra o primeiro jogador Bedrock, ou com `/sam bedrock exportar`. O que fazer com eles depende de como o Geyser está instalado:
+Eles aparecem quando o Geyser ou o Floodgate roda no mesmo servidor, quando entra o primeiro jogador Bedrock, ou com `/sam bedrock exportar`.
+
+**Os modelos dependem desses dois arquivos.** O Bedrock não desenha bloco na cabeça de entidade, e os modelos do Bedrock são exatamente isso: armor stands com um bloco na cabeça. O mapeamento troca cada bloco por um item do Míssil e o pacote desenha esse item como um cubo. Sem os arquivos, ou com os de outra versão, os modelos ficam invisíveis. **Ao atualizar o Míssil, copie os dois de novo**; o console avisa quando eles mudam.
+
+O que fazer com eles depende de como o Geyser está instalado:
 
 ### 1. Geyser como plugin (Geyser-Spigot) no mesmo servidor
 
@@ -51,8 +55,10 @@ Eles aparecem quando o Geyser ou o Floodgate roda no mesmo servidor, quando entr
 
 1. Com o servidor rodando, entre uma vez pelo Bedrock (ou use `/sam bedrock exportar`) para gerar os arquivos.
 2. Copie `plugins/Missil/geyser/missil-geyser-mappings.json` para a pasta `custom_mappings/` ao lado do `Geyser.jar`.
-3. Copie `plugins/Missil/geyser/Missil.mcpack` para a pasta `packs/` ao lado do `Geyser.jar`.
+3. Copie `plugins/Missil/geyser/Missil.mcpack` para a pasta `packs/` ao lado do `Geyser.jar`, no lugar do antigo.
 4. Reinicie o Geyser.
+
+O Geyser não escreve nada no log sobre os pacotes. Para conferir, no Bedrock, em **Configurações › Armazenamento**, o pacote **Míssil** tem que estar na versão do plugin.
 
 Com o Floodgate no servidor Paper, o Míssil reconhece os jogadores Bedrock pela API dele. Sem nada no Paper, ele reconhece pela marca do cliente ("Geyser").
 
@@ -99,11 +105,18 @@ O console mostra "Jogador Bedrock: nome (fonte)" quando um entra, e `/sam bedroc
 
 O teste não tinha tela: a aparência dos modelos num aparelho de verdade se confere com a calibração abaixo.
 
+### Não vejo os modelos
+
+1. No jogo, `/sam bedrock` tem que dizer que você está no Bedrock. Se disser Java, use `/sam bedrock <nome> sim`.
+2. O pacote **Míssil** no aparelho (Configurações › Armazenamento) tem que estar na mesma versão do plugin, e o console do Geyser tem que dizer "Registered … custom items" ao iniciar (35 na 2.3.1, com os 15 itens do plugin e os 20 cubos).
+3. Se a versão não bate, copie de novo os dois arquivos de `plugins/Missil/geyser/` (passo 2 ou 3 da instalação) e reinicie o Geyser.
+4. Com tudo certo, `/sam bedrock calibrar` mostra os cubos vermelhos dentro do vidro.
+
 ## Calibrar os modelos
 
 Os modelos do Bedrock são feitos de blocos na cabeça de *armor stands* invisíveis, que só os jogadores Bedrock veem. Para conferir se eles batem com o lugar certo no seu aparelho:
 
-1. Use `/sam bedrock calibrar` (admin). Aparecem por 25 s, na sua frente, três blocos de vidro com um cubo de vidro vermelho dentro de cada um. O do meio fica girado 45° e o da direita 90°.
+1. Use `/sam bedrock calibrar` (admin). Aparecem por 25 s, na sua frente, três blocos de vidro com um cubo vermelho dentro de cada um. O do meio fica girado 45° e o da direita 90°.
 2. Olhe pelo celular ou console. Cada cubo vermelho tem que ficar **no meio do vidro e do mesmo tamanho**.
 3. Se estiver alto ou baixo, mude `bedrock.modelos.ajuste-altura` no `config.yml` (em blocos; negativo desce). Se estiver grande ou pequeno, mude `bedrock.modelos.ajuste-tamanho` (1.0 = normal).
 4. Use `/sam admin reload` e calibre de novo.

@@ -1,6 +1,6 @@
 # Wiki do Míssil Teleguiado
 
-Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.3.0** (Minecraft Paper 26.3). Joga no celular, console ou Windows? Veja [Jogar no Bedrock](Bedrock.md).
+Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.3.1** (Minecraft Paper 26.3). Joga no celular, console ou Windows? Veja [Jogar no Bedrock](Bedrock.md).
 
 ![Exemplo de base completa](img/esquemas/base-exemplo.svg)
 
