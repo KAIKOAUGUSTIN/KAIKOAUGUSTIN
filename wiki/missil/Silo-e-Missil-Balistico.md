@@ -55,6 +55,21 @@ Cada nível tem a sua [receita](Receitas.md#míssil-balístico): o nível 1 é b
 
 Com **Cargas EMP** no silo, clique em **Ogiva** no menu do silo até chegar na EMP (o botão passa por todas as ogivas; o clique direito volta). As outras ogivas (perfurante, incendiária, fumaça e múltipla) estão em [Ogivas e minas](Ogivas-e-Minas.md). O lançamento gasta um míssil e uma carga; a TNT fica guardada. O míssil voa igual, mas na chegada não quebra nada: desliga por 60 s os equipamentos a até 64 m. Veja [Ogiva EMP](EMP-e-Alertas.md#ogiva-emp).
 
+## Míssil de Cruzeiro
+
+O **Míssil de Cruzeiro** também sai do silo, com a mesma ogiva, mas voa **baixo**, acompanhando o relevo, em vez do arco alto.
+
+1. Ponha **Mísseis de Cruzeiro** no silo. Com balísticos e de cruzeiro dentro, o botão **Míssil** do menu escolhe qual sai.
+2. Opcional: até **5 pontos de passagem**. Com a [Ferramenta de Link](Comportas-e-Ferramenta-de-Link.md#ferramenta-de-link), clique no silo e depois nos blocos por onde ele deve passar (Shift + clique tira o último). Use os pontos para contornar radares e morros.
+3. Escolha o alvo e lance como o balístico.
+
+- Ele sai do poço, desce até **6 m acima do chão** e voa a ~35 m/s. Olha o terreno até 90 m à frente: sobe cedo antes de morros, árvores e prédios e desce do outro lado. Se o silo está num vale, ele sobe até sair dele antes de virar.
+- A 90 m do alvo, sobe 20 m e **mergulha** nele.
+- O alcance é o **comprimento da rota** (silo → pontos → alvo): 400, 800 e 1200 m para os níveis 1, 2 e 3.
+- **É difícil de ver:** o radar só o vê com linha de visada (um morro no meio esconde) e, com ele voando baixo, só a até metade do alcance. O satélite vê de onde ele saiu, mas não para onde vai.
+- O CIWS, os mísseis SAM e a besta derrubam o cruzeiro como os outros mísseis.
+- No Nether, ele voa entre o chão e o teto. A Ogiva Múltipla é só do balístico.
+
 ## Lançar de longe
 
 - **Dá para lançar de longe.** Abrir o silo no menu carrega o chunk dele e o das comportas e mostra o que tem dentro. Se ninguém estiver perto, o lançamento carrega o silo sozinho antes de soltar o míssil.

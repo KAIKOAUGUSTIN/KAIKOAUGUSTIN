@@ -43,13 +43,15 @@ A **Ferramenta de Link** (uma luneta) liga as coisas entre si. Com ela na mão, 
 | Shift + clique no lançador | Desconecta o lançador do radar. |
 | lançador, silo ou base → comporta | Liga a comporta a ele. Shift + clique na comporta: desliga. |
 | base de drones → blocos | Cada bloco clicado vira um ponto da **rota da patrulha**, na ordem. Shift + clique num bloco tira o último ponto. Até 32 pontos, a até 1000 m da base. |
+| silo → blocos | Cada bloco clicado vira um **ponto de passagem** do [Míssil de Cruzeiro](Silo-e-Missil-Balistico.md#míssil-de-cruzeiro), na ordem. Shift + clique num bloco tira o último ponto. Até 5 pontos. |
 | clique no ar | Limpa a seleção (para começar de novo sem ligar nada). |
 
 Enquanto você segura a ferramenta, partículas mostram:
 
 - as ligações à mão entre radares (linhas douradas) e os radares da rede selecionada (amarelos);
 - os lançadores conectados;
-- a rota da base de drones selecionada (ou o círculo, se ela não tiver pontos).
+- a rota da base de drones selecionada (ou o círculo, se ela não tiver pontos);
+- a rota do cruzeiro do silo selecionado (linha verde do silo, pelos pontos, até o alvo em vermelho).
 
 Você só liga os seus próprios equipamentos (o admin liga de qualquer um).
 

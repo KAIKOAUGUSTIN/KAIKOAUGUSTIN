@@ -17,7 +17,7 @@ Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do s
 | <img src="img/icones/foguete_guiado.svg" width="36"> | [Besta e Foguete Teleguiado](Besta.md) | Trave num alvo e dispare, ou pilote o foguete em primeira pessoa (FPV). Também derruba mísseis e drones. |
 | <img src="img/icones/radar.svg" width="36"> | [Radar e mísseis SAM](Radar-e-Misseis-SAM.md) | O radar vê quem voa (ou anda) por perto e os lançadores atiram sozinhos. Vários radares viram uma rede. |
 | <img src="img/icones/mesa_radar.svg" width="36"> | [Mesa de Radar](Mesa-de-Radar.md) | Um mapa 3x3 no chão com tudo o que a sua rede vê. Também serve para marcar alvos. |
-| <img src="img/icones/silo.svg" width="36"> | [Silo e Míssil Balístico](Silo-e-Missil-Balistico.md) | Um míssil que vai até as coordenadas que você escolher, com ogiva de TNT ou EMP. |
+| <img src="img/icones/silo.svg" width="36"> | [Silo e Míssil Balístico](Silo-e-Missil-Balistico.md) | Um míssil que vai até as coordenadas que você escolher, com ogiva de TNT ou EMP, e o Míssil de Cruzeiro, que voa baixo pelo relevo. |
 | <img src="img/icones/comporta.svg" width="36"> | [Comportas e Ferramenta de Link](Comportas-e-Ferramenta-de-Link.md) | Esconda lançadores, silos e bases debaixo da terra. Ligue radares, lançadores e comportas. |
 | <img src="img/icones/satelite.svg" width="36"> | [Satélite](Satelite.md) | Comanda a base de longe, mostra um mapa de 5000 m e avisa de lançamentos. Pode ser derrubado. |
 | <img src="img/icones/base_drones.svg" width="36"> | [Drones](Drones.md) | Patrulha armada com rota (contra inimigos e mobs), reconhecimento que alimenta o radar e kamikaze (sozinho ou pilotado). Bateria, carga, câmera e pilotagem de cada drone. |
