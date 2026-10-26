@@ -12,7 +12,7 @@ A **Carga EMP** é uma ogiva do [Míssil Balístico](Silo-e-Missil-Balistico.md)
 
 **Como lançar:**
 
-- Ponha **Cargas EMP** no silo (junto com os Mísseis Balísticos). No menu do silo, clique em **Ogiva** para trocar de TNT para EMP. Escolha o alvo e lance como sempre.
+- Ponha **Cargas EMP** no silo (junto com os Mísseis Balísticos). No menu do silo, clique em **Ogiva** até chegar na EMP. Escolha o alvo e lance como sempre.
 - Ou pelo mapa do satélite: marque o ponto → **[Ações no ponto](Satelite.md#ações-no-ponto)** → **Lançar EMP**.
 
 O lançamento gasta um míssil e uma carga (a TNT fica guardada no silo). O míssil voa igual ao balístico normal e pode ser derrubado do mesmo jeito.
@@ -47,7 +47,7 @@ Dois blocos avisam você quando algo acontece perto da base:
 
 Os dois são **mecânicos**: o EMP não os desliga, então eles também avisam um EMP.
 
-### Os 7 alertas
+### Os 8 alertas
 
 | Alerta | Quando dispara |
 |---|---|
@@ -58,6 +58,7 @@ Os dois são **mecânicos**: o EMP não os desliga, então eles também avisam u
 | **Lançamento visto pelo satélite** | o seu satélite viu um lançamento inimigo (**qualquer distância**) |
 | **EMP** | um EMP inimigo explodiu dentro do raio |
 | **Satélite atacado** | o seu satélite está sendo atacado (**qualquer distância**) |
+| **Mina acionada** | uma [mina](Ogivas-e-Minas.md#minas) sua a até o raio foi acionada |
 
 ```mermaid
 flowchart LR
@@ -103,7 +104,7 @@ Ideias: fechar um portão com pistões, abrir um bunker, acender as luzes da bas
 
 ![Tela do Bloco de Ação](img/menus/alerta.svg)
 
-- os 7 alertas: clique em cada um para ligar ou desligar (verde brilhando = responde; corante cinza = ignora);
+- os 8 alertas: clique em cada um para ligar ou desligar (verde brilhando = responde; corante cinza = ignora);
 - o **raio**: clique esquerdo −25 m, direito +25 m, até 500 m;
 - **Ligado/desligado**;
 - o **modo** (só no Bloco de Ação);
@@ -113,4 +114,4 @@ De longe, mexer neles precisa de [comunicação](Satelite.md#comunicação-rádi
 
 ---
 
-← [Guerra eletrônica e CIWS](Guerra-Eletronica-e-CIWS.md) · Próximo: [Comandos e permissões](Comandos-e-Permissoes.md) →
+← [Guerra eletrônica e CIWS](Guerra-Eletronica-e-CIWS.md) · Próximo: [Ogivas e minas](Ogivas-e-Minas.md) →

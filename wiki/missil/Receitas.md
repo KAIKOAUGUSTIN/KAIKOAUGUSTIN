@@ -369,4 +369,98 @@ Como usar: [EMP e alertas da base](EMP-e-Alertas.md).
 
 ---
 
+## Ogivas e minas (2.4.0)
+
+### Ponta Perfurante
+
+![Receita: Ponta Perfurante](img/receitas/ponta_perfurante.png)
+
+Vai no silo, com a ogiva Perfurante escolhida no menu: o míssil entra no chão antes de explodir a TNT do silo.
+
+**Itens:** 5× Obsidiana · 1× Lingote de Netherita · 1× Diamante
+
+### Carga Incendiária
+
+![Receita: Carga Incendiária](img/receitas/carga_incendiaria.png)
+
+Vai no silo, com a ogiva Incendiária escolhida no menu: a TNT do silo explode com menos força e põe fogo em volta.
+
+**Itens:** 4× Pó de Blaze · 4× Creme de Magma · 1× [Combustível de Foguete](#combustível-de-foguete)
+
+### Carga de Fumaça
+
+![Receita: Carga de Fumaça](img/receitas/carga_fumaca.png)
+
+Vai no silo, com a ogiva Fumaça escolhida no menu: não explode; deixa uma nuvem que tapa a visão de câmeras, drones e da besta.
+
+**Itens:** 4× Pólvora · 4× Lã Branca · 1× Fogueira
+
+### Ogiva Múltipla
+
+![Receita: Ogiva Múltipla](img/receitas/ogiva_multipla.png)
+
+Vai no silo, com a ogiva Múltipla escolhida no menu: o Míssil Balístico se divide em várias ogivas em volta do alvo, com a TNT do silo dividida entre elas. Chaff no silo vira chamariz.
+
+**Itens:** 4× Diamante · 2× [Circuito de Guiagem](#circuito-de-guiagem) · 2× TNT · 1× Estrela do Nether
+
+### Granada de Fumaça
+
+![Receita: Granada de Fumaça](img/receitas/granada_fumaca.png)
+
+Clique direito arremessa: onde cair, faz uma nuvem de fumaça pequena. Rende 2.
+
+**Itens (sem forma: vão em qualquer casa da grade):** 1× Pólvora · 1× Lã Branca · 1× Bola de Neve
+
+### Mina Terrestre
+
+![Receita: Mina Terrestre](img/receitas/mina_terrestre.png)
+
+Clique direito no topo de um bloco coloca: explode quando um inimigo passa por cima. Rende 2.
+
+**Itens:** 1× Placa de Pressão de Pedra · 1× TNT · 1× Lingote de Ferro
+
+### Mina Antidrone
+
+![Receita: Mina Antidrone](img/receitas/mina_antidrone.png)
+
+Clique direito no topo de um bloco coloca: derruba o primeiro drone inimigo que passa perto.
+
+**Itens:** 1× Gancho de Armadilha · 1× [Circuito de Guiagem](#circuito-de-guiagem) · 1× TNT
+
+### Mina Naval
+
+![Receita: Mina Naval](img/receitas/mina_naval.png)
+
+Clique direito na água coloca: boia e explode com barcos e nadadores inimigos.
+
+**Itens:** 1× Alga · 1× TNT · 1× Bloco de Ferro
+
+#### Míssil de Cruzeiro nível 1
+
+![Receita: Míssil de Cruzeiro nível 1](img/receitas/missil_cruzeiro_1.png)
+
+Munição do Silo (2.4.0), escolhida no menu do silo: usa a ogiva do silo. Nível 1 (duração de voo 1): rota de até 400 m; o servidor pode mudar em `cruzeiro.alcance-max-por-nivel`.
+
+**Itens:** 1× Bússola · 2× Membrana de Espectro · 1× [Circuito de Guiagem](#circuito-de-guiagem) · 2× [Combustível de Foguete](#combustível-de-foguete) · 1× Bloco de Ferro
+
+#### Míssil de Cruzeiro nível 2
+
+![Receita: Míssil de Cruzeiro nível 2](img/receitas/missil_cruzeiro_2.png)
+
+Munição do Silo (2.4.0), escolhida no menu do silo: usa a ogiva do silo. Nível 2 (duração de voo 2): rota de até 800 m; o servidor pode mudar em `cruzeiro.alcance-max-por-nivel`.
+
+**Itens:** 3× [Combustível de Foguete](#combustível-de-foguete) · 1× Bússola · 2× Membrana de Espectro · 1× [Circuito de Guiagem](#circuito-de-guiagem) · 2× Diamante
+
+#### Míssil de Cruzeiro nível 3
+
+![Receita: Míssil de Cruzeiro nível 3](img/receitas/missil_cruzeiro_3.png)
+
+Munição do Silo (2.4.0), escolhida no menu do silo: usa a ogiva do silo. Nível 3 (duração de voo 3): rota de até 1200 m; o servidor pode mudar em `cruzeiro.alcance-max-por-nivel`.
+
+**Itens:** 4× [Combustível de Foguete](#combustível-de-foguete) · 1× Bússola · 2× Membrana de Espectro · 1× Lingote de Netherita · 1× [Circuito de Guiagem](#circuito-de-guiagem)
+
+Como usar: [Ogivas e minas](Ogivas-e-Minas.md).
+
+---
+
 ← [Primeiros passos](Primeiros-Passos.md) · Próximo: [O menu `/sam`](Menu.md) →

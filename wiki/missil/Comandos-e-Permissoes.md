@@ -55,7 +55,7 @@ Precisa da permissão `missil.admin` (os operadores do servidor têm).
 | `/sam admin reload` | Relê o `config.yml` e o `receitas.yml`, e mostra o resumo das receitas (quantas carregaram e quantas têm erro). |
 | `/sam teste [cenário]` | Autoteste dentro do servidor. **Use num mundo de teste**: ele monta construções e explode coisas. |
 
-**Itens do `/sam dar`:** `foguete_guiado`, `missil_sam`, `radar`, `lancador`, `link`, `monitor` (Mesa de Radar), `missil_balistico`, `silo`, `comporta`, `satelite`, `missil_antissatelite`, `terminal`, `base_drones`, `drone_patrulha`, `drone_reconhecimento`, `drone_kamikaze`, `flare`, `chaff`, `dispensador`, `bloqueador_portatil`, `bloqueador`, `ciws`, `municao_ciws`, `carga_emp`, `sirene`, `bloco_acao`, `combustivel_foguete`, `circuito`.
+**Itens do `/sam dar`:** `foguete_guiado`, `missil_sam`, `radar`, `lancador`, `link`, `monitor` (Mesa de Radar), `missil_balistico`, `silo`, `comporta`, `satelite`, `missil_antissatelite`, `terminal`, `base_drones`, `drone_patrulha`, `drone_reconhecimento`, `drone_kamikaze`, `flare`, `chaff`, `dispensador`, `bloqueador_portatil`, `bloqueador`, `ciws`, `municao_ciws`, `carga_emp`, `sirene`, `bloco_acao`, `combustivel_foguete`, `circuito`, `ogiva_multipla`, `ponta_perfurante`, `carga_incendiaria`, `carga_fumaca`, `granada_fumaca`, `mina_terrestre`, `mina_antidrone`, `mina_naval`, `missil_cruzeiro`.
 
 Exemplo: `/sam dar Steve missil_balistico 4 3` entrega 4 Mísseis Balísticos com duração de voo 3.
 
@@ -69,4 +69,4 @@ Exemplo: `/sam dar Steve missil_balistico 4 3` entrega 4 Mísseis Balísticos co
 
 ---
 
-← [EMP e alertas da base](EMP-e-Alertas.md) · Próximo: [Administração](Administracao.md) →
+← [Ogivas e minas](Ogivas-e-Minas.md) · Próximo: [Administração](Administracao.md) →

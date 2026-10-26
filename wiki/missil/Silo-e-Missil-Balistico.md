@@ -9,7 +9,7 @@ O **Silo de Míssil** lança um **Míssil Balístico** até as coordenadas que v
 ## Passo a passo
 
 1. **Coloque o silo** (um barril; ele fica sempre virado para cima). Pode ficar na superfície ou enterrado, com uma [Comporta](Comportas-e-Ferramenta-de-Link.md) em cima.
-2. **Abasteça:** clique direito no silo e ponha **Mísseis Balísticos** e **TNT**. Funis (hoppers) também abastecem. O silo só aceita Mísseis Balísticos, TNT, Cargas EMP, Satélites e Mísseis Antissatélite. Com um míssil dentro, ele aparece **em pé em cima do barril**, pronto para sair.
+2. **Abasteça:** clique direito no silo e ponha **Mísseis Balísticos** e **TNT**. Funis (hoppers) também abastecem. O silo só aceita mísseis (Balístico, Antissatélite), o Satélite, TNT, as cargas das ogivas e Chaff. Com um míssil dentro, ele aparece **em pé em cima do barril**, pronto para sair.
 3. **Veja o tamanho da explosão:** a cada TNT colocada ou tirada, a barra de ação mostra o raio esperado. Ao fechar o silo, o resumo vai para o chat.
 4. **Escolha o alvo** no menu (`/sam` → Silos → o silo): digite as coordenadas no chat, use **a sua posição** ou **o bloco que você está olhando**. Também dá para usar `/sam alvo <x> [y] <z>` olhando para o silo (aceita `~`). Sem Y, o míssil desce no chão daquele ponto.
 5. **Lance:** botão **LANÇAR** no menu (pede confirmação) ou `/sam lancar` olhando para o silo. Também dá para lançar das [Ações no ponto](Satelite.md#ações-no-ponto), marcando no mapa.
@@ -53,7 +53,7 @@ Cada nível tem a sua [receita](Receitas.md#míssil-balístico): o nível 1 é b
 
 ## Ogiva EMP
 
-Com **Cargas EMP** no silo, clique em **Ogiva** no menu do silo para trocar de TNT para EMP (e de volta). O lançamento gasta um míssil e uma carga; a TNT fica guardada. O míssil voa igual, mas na chegada não quebra nada: desliga por 60 s os equipamentos a até 64 m. Veja [Ogiva EMP](EMP-e-Alertas.md#ogiva-emp).
+Com **Cargas EMP** no silo, clique em **Ogiva** no menu do silo até chegar na EMP (o botão passa por todas as ogivas; o clique direito volta). As outras ogivas (perfurante, incendiária, fumaça e múltipla) estão em [Ogivas e minas](Ogivas-e-Minas.md). O lançamento gasta um míssil e uma carga; a TNT fica guardada. O míssil voa igual, mas na chegada não quebra nada: desliga por 60 s os equipamentos a até 64 m. Veja [Ogiva EMP](EMP-e-Alertas.md#ogiva-emp).
 
 ## Lançar de longe
 
