@@ -59,6 +59,9 @@ Todas as receitas são feitas numa **bancada de trabalho** comum e aparecem no s
 | | [Câmera de Segurança](#câmera-de-segurança) | modelo pequeno preso num bloco | vigia e avisa quando vê alguém | 2 |
 | | [Tela de Câmera](#tela-de-câmera) | mapa numa moldura | mostra ao vivo o que a câmera ou o drone vê | 1 |
 | | [Tablet](#tablet) | item | abre a lista das câmeras | 1 |
+| | [Estação de Robôs](#estação-de-robôs) | mesa de ferraria | guarda, carrega e abastece os robôs | 1 |
+| | [Robôs](#os-quatro-robôs) (4 tipos) | item | defesa, minerador, explorador, trabalhador | 1 |
+| | [Bateria Reserva](#bateria-reserva) | item | religa um robô sem bateria | 2 |
 
 Quebrar um bloco do plugin devolve o item dele (e o que estava dentro). No modo criativo nada cai.
 
@@ -503,6 +506,32 @@ Clique direito abre a lista das suas câmeras.
 **Forma:** `GGG` / `PCP` / `PRP` — G: Painel de Vidro · P: Lingote de Cobre · C: [Circuito de Guiagem](#circuito-de-guiagem) · R: Bloco de Redstone
 
 Como usar: [Vida, contrabateria e depósito](Base.md) e [Câmeras](Cameras.md).
+
+---
+
+## Robôs (3.0.0)
+
+### Estação de Robôs
+
+Mesa de ferraria que guarda os robôs, carrega a bateria deles e tem os suprimentos e a carga.
+
+**Forma:** `ICI` / `RSR` / `III` — I: Lingote de Ferro · C: [Circuito de Guiagem](#circuito-de-guiagem) · R: Bloco de Redstone · S: Mesa de Ferraria
+
+### Os quatro robôs
+
+Todos têm o mesmo corpo; muda a ferramenta de baixo, no meio: **Espada de Ferro** (defesa), **Picareta de Ferro** (minerador), **Bússola** (explorador) e **Pá de Ferro** (trabalhador).
+
+**Forma:** `IOI` / `CRC` / `IWI` — I: Lingote de Ferro · O: Observador · C: [Circuito de Guiagem](#circuito-de-guiagem) · R: Bloco de Redstone · W: a ferramenta do robô
+
+### Bateria Reserva
+
+Clique direito num robô sem bateria: religa ele onde está. Rende 2.
+
+**Itens (sem forma: vão em qualquer casa da grade):** 1× Bloco de Redstone · 2× Lingote de Cobre · 1× Pó de Pedra Luminosa
+
+A **Sucata de Robô** não tem receita: cai de um robô destruído.
+
+Como usar: [Robôs](Robos.md).
 
 ---
 

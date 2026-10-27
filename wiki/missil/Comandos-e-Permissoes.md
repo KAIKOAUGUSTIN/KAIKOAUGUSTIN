@@ -26,6 +26,7 @@ Todos os comandos começam com **`/sam`** (também funciona `/missil`). Os que d
 | `/sam cameras` | Suas [câmeras](Cameras.md) e as fotos. `/sam cameras ver <id>` abre uma câmera (é o que o [Ver câmera] do alerta faz). |
 | `/sam contrabateria` | As últimas origens de lançamentos inimigos ([contrabateria](Base.md#contrabateria)). `/sam contrabateria retaliar <n>` abre as Ações no ponto sobre a origem n. |
 | `/sam depositos` | Seus [Depósitos de Munição](Base.md#depósito-de-munição) (liga e desliga). |
+| `/sam robos` | Seus [robôs](Robos.md): estado, tarefa, enviar e chamar de volta. `/sam robos ver <id>` vê pela câmera de um robô. |
 | `/sam confiar <jogador>` | Torna o jogador seu aliado. |
 | `/sam desconfiar <jogador>` | Tira o jogador dos aliados. |
 | `/sam aliados` | Lista os seus aliados. |
@@ -58,7 +59,7 @@ Precisa da permissão `missil.admin` (os operadores do servidor têm).
 | `/sam admin reload` | Relê o `config.yml` e o `receitas.yml`, e mostra o resumo das receitas (quantas carregaram e quantas têm erro). |
 | `/sam teste [cenário]` | Autoteste dentro do servidor. **Use num mundo de teste**: ele monta construções e explode coisas. |
 
-**Itens do `/sam dar`:** `foguete_guiado`, `missil_sam`, `radar`, `lancador`, `link`, `monitor` (Mesa de Radar), `missil_balistico`, `silo`, `comporta`, `satelite`, `missil_antissatelite`, `terminal`, `base_drones`, `drone_patrulha`, `drone_reconhecimento`, `drone_kamikaze`, `flare`, `chaff`, `dispensador`, `bloqueador_portatil`, `bloqueador`, `ciws`, `municao_ciws`, `carga_emp`, `sirene`, `bloco_acao`, `combustivel_foguete`, `circuito`, `ogiva_multipla`, `ponta_perfurante`, `carga_incendiaria`, `carga_fumaca`, `granada_fumaca`, `mina_terrestre`, `mina_antidrone`, `mina_naval`, `missil_cruzeiro`, `kit_reparo`, `deposito`, `camera_seguranca`, `tela_camera`, `tablet`.
+**Itens do `/sam dar`:** `foguete_guiado`, `missil_sam`, `radar`, `lancador`, `link`, `monitor` (Mesa de Radar), `missil_balistico`, `silo`, `comporta`, `satelite`, `missil_antissatelite`, `terminal`, `base_drones`, `drone_patrulha`, `drone_reconhecimento`, `drone_kamikaze`, `flare`, `chaff`, `dispensador`, `bloqueador_portatil`, `bloqueador`, `ciws`, `municao_ciws`, `carga_emp`, `sirene`, `bloco_acao`, `combustivel_foguete`, `circuito`, `ogiva_multipla`, `ponta_perfurante`, `carga_incendiaria`, `carga_fumaca`, `granada_fumaca`, `mina_terrestre`, `mina_antidrone`, `mina_naval`, `missil_cruzeiro`, `kit_reparo`, `deposito`, `camera_seguranca`, `tela_camera`, `tablet`, `estacao_robos`, `robo_defesa`, `robo_minerador`, `robo_explorador`, `robo_trabalhador`, `bateria_reserva`, `sucata_robo`. A tela **Dar itens** do menu de administração tem páginas e mostra todos.
 
 Exemplo: `/sam dar Steve missil_balistico 4 3` entrega 4 Mísseis Balísticos com duração de voo 3.
 

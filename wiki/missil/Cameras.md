@@ -69,4 +69,4 @@ Receitas: [Câmera de Segurança, Tela de Câmera e Tablet](Receitas.md#base-e-c
 
 ---
 
-← [Vida, contrabateria e depósito](Base.md) · Próximo: [Comandos e permissões](Comandos-e-Permissoes.md) →
+← [Vida, contrabateria e depósito](Base.md) · Próximo: [Robôs](Robos.md) →
