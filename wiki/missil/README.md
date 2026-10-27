@@ -1,6 +1,6 @@
 # Wiki do Míssil Teleguiado
 
-Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.4.0** (Minecraft Paper 26.3). Joga no celular, console ou Windows? Veja [Jogar no Bedrock](Bedrock.md).
+Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do servidor para quem acabou de chegar. Para cada coisa ela diz o que faz, como fabricar e como usar. Vale para a versão **2.5.0** (Minecraft Paper 26.3). Joga no celular, console ou Windows? Veja [Jogar no Bedrock](Bedrock.md).
 
 ![Exemplo de base completa](img/esquemas/base-exemplo.svg)
 
@@ -24,6 +24,8 @@ Esta wiki explica o plugin de mísseis, radares, satélite, drones e defesa do s
 | <img src="img/icones/ciws.svg" width="36"> | [Guerra eletrônica e CIWS](Guerra-Eletronica-e-CIWS.md) | Flare, chaff, dispensador, bloqueadores de radar e a torreta CIWS que derruba o que chega perto. |
 | <img src="img/icones/sirene.svg" width="36"> | [EMP e alertas da base](EMP-e-Alertas.md) | A ogiva que desliga equipamentos sem quebrar nada, a sirene e o Bloco de Ação para circuitos de redstone. |
 | <img src="img/icones/silo.svg" width="36"> | [Ogivas e minas](Ogivas-e-Minas.md) | As ogivas do silo (perfurante, incendiária, fumaça e múltipla), a granada de fumaça e as minas terrestre, antidrone e naval. |
+| <img src="img/icones/radar.svg" width="36"> | [Vida, contrabateria e depósito](Base.md) | Os equipamentos têm vida e o Kit de Reparo conserta; de onde veio o míssil inimigo e a retaliação; o depósito que abastece a base sozinho. |
+| <img src="img/icones/terminal.svg" width="36"> | [Câmeras](Cameras.md) | Câmeras de segurança que avisam quando veem alguém, a tela ao vivo numa moldura, o Tablet e as fotos. |
 | <img src="img/icones/combustivel_foguete.svg" width="36"> | [Jogar no Bedrock (Geyser)](Bedrock.md) | Celular, console e Windows pelo Geyser: o que muda nos controles, a tela de ajuste, a tela Fabricar e como o admin instala. |
 
 ## Consulta rápida

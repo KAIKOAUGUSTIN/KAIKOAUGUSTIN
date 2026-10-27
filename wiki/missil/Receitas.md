@@ -54,6 +54,11 @@ Todas as receitas são feitas numa **bancada de trabalho** comum e aparecem no s
 | <img src="img/icones/municao_ciws.svg" width="32"> | [Munição de CIWS](#munição-de-ciws) | item | munição do CIWS | 32 |
 | <img src="img/icones/sirene.svg" width="32"> | [Sirene de Alerta](#sirene-de-alerta) | sino | toca a buzina nos alertas | 1 |
 | <img src="img/icones/bloco_acao.svg" width="32"> | [Bloco de Ação](#bloco-de-ação) | lâmpada de redstone | vira bloco de redstone nos alertas | 1 |
+| | [Kit de Reparo](#kit-de-reparo) | pincel | devolve vida a um equipamento | 2 |
+| | [Depósito de Munição](#depósito-de-munição) | baú | abastece os equipamentos por perto | 1 |
+| | [Câmera de Segurança](#câmera-de-segurança) | modelo pequeno preso num bloco | vigia e avisa quando vê alguém | 2 |
+| | [Tela de Câmera](#tela-de-câmera) | mapa numa moldura | mostra ao vivo o que a câmera ou o drone vê | 1 |
+| | [Tablet](#tablet) | item | abre a lista das câmeras | 1 |
 
 Quebrar um bloco do plugin devolve o item dele (e o que estava dentro). No modo criativo nada cai.
 
@@ -460,6 +465,44 @@ Munição do Silo (2.4.0), escolhida no menu do silo: usa a ogiva do silo. Níve
 **Itens:** 4× [Combustível de Foguete](#combustível-de-foguete) · 1× Bússola · 2× Membrana de Espectro · 1× Lingote de Netherita · 1× [Circuito de Guiagem](#circuito-de-guiagem)
 
 Como usar: [Ogivas e minas](Ogivas-e-Minas.md).
+
+---
+
+## Base e câmeras (2.5.0)
+
+Nas formas abaixo, cada linha é uma linha da bancada e o espaço é casa vazia.
+
+### Kit de Reparo
+
+Clique direito num equipamento seu (ou de um aliado) devolve 50 de vida. Rende 2.
+
+**Forma:** `I I` / `ICI` / ` A ` — I: Lingote de Ferro · C: [Circuito de Guiagem](#circuito-de-guiagem) · A: Bigorna
+
+### Depósito de Munição
+
+Baú que não se junta com outro e abastece sozinho os seus lançadores, silos, CIWS e bases de drones por perto.
+
+**Forma:** `IHI` / `IBI` / `ICI` — I: Lingote de Ferro · H: Funil · B: Baú · C: [Circuito de Guiagem](#circuito-de-guiagem)
+
+### Câmera de Segurança
+
+Presa numa parede, no teto ou no chão, vigia para onde você olhava ao colocar. Rende 2.
+
+**Forma:** ` G ` / `IOI` / ` C ` — G: Vidro · I: Lingote de Ferro · O: Observador · C: [Circuito de Guiagem](#circuito-de-guiagem)
+
+### Tela de Câmera
+
+Um mapa para pôr numa moldura e ligar a uma câmera ou a um drone.
+
+**Itens (sem forma: vão em qualquer casa da grade):** 1× Mapa · 1× Painel de Vidro · 1× Redstone
+
+### Tablet
+
+Clique direito abre a lista das suas câmeras.
+
+**Forma:** `GGG` / `PCP` / `PRP` — G: Painel de Vidro · P: Lingote de Cobre · C: [Circuito de Guiagem](#circuito-de-guiagem) · R: Bloco de Redstone
+
+Como usar: [Vida, contrabateria e depósito](Base.md) e [Câmeras](Cameras.md).
 
 ---
 

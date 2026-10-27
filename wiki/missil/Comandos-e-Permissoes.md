@@ -10,7 +10,7 @@ Todos os comandos começam com **`/sam`** (também funciona `/missil`). Os que d
 |---|---|
 | `/sam` ou `/sam menu` | Abre o [menu](Menu.md). |
 | `/sam ajuda` | Lista os comandos no chat. |
-| `/sam info` | Estado do equipamento que você está olhando: radar, lançador, silo, comporta, mesa, base de drones, CIWS, bloqueador, sirene ou bloco de ação (e se um EMP o desligou). |
+| `/sam info` | Estado do equipamento que você está olhando: radar, lançador, silo, comporta, mesa, base de drones, CIWS, bloqueador, sirene, bloco de ação ou depósito, com a [vida](Base.md#vida-dos-equipamentos) (e se um EMP o desligou). |
 | `/sam modo aereo` / `terrestre` / `ambos` | Que alvos o radar olhado ataca. |
 | `/sam alvo-dono on` / `off` | O radar olhado também ataca o dono (para testar). |
 | `/sam rede` | Abre o menu da rede do radar olhado. |
@@ -23,6 +23,9 @@ Todos os comandos começam com **`/sam`** (também funciona `/missil`). Os que d
 | `/sam drones` | Suas Bases de Drones (olhando para uma base, abre ela). |
 | `/sam defesa` | Seus CIWS e Bloqueadores de Radar (liga e desliga). |
 | `/sam alertas` | Suas Sirenes e Blocos de Ação (olhando para um, abre ele). |
+| `/sam cameras` | Suas [câmeras](Cameras.md) e as fotos. `/sam cameras ver <id>` abre uma câmera (é o que o [Ver câmera] do alerta faz). |
+| `/sam contrabateria` | As últimas origens de lançamentos inimigos ([contrabateria](Base.md#contrabateria)). `/sam contrabateria retaliar <n>` abre as Ações no ponto sobre a origem n. |
+| `/sam depositos` | Seus [Depósitos de Munição](Base.md#depósito-de-munição) (liga e desliga). |
 | `/sam confiar <jogador>` | Torna o jogador seu aliado. |
 | `/sam desconfiar <jogador>` | Tira o jogador dos aliados. |
 | `/sam aliados` | Lista os seus aliados. |
@@ -55,7 +58,7 @@ Precisa da permissão `missil.admin` (os operadores do servidor têm).
 | `/sam admin reload` | Relê o `config.yml` e o `receitas.yml`, e mostra o resumo das receitas (quantas carregaram e quantas têm erro). |
 | `/sam teste [cenário]` | Autoteste dentro do servidor. **Use num mundo de teste**: ele monta construções e explode coisas. |
 
-**Itens do `/sam dar`:** `foguete_guiado`, `missil_sam`, `radar`, `lancador`, `link`, `monitor` (Mesa de Radar), `missil_balistico`, `silo`, `comporta`, `satelite`, `missil_antissatelite`, `terminal`, `base_drones`, `drone_patrulha`, `drone_reconhecimento`, `drone_kamikaze`, `flare`, `chaff`, `dispensador`, `bloqueador_portatil`, `bloqueador`, `ciws`, `municao_ciws`, `carga_emp`, `sirene`, `bloco_acao`, `combustivel_foguete`, `circuito`, `ogiva_multipla`, `ponta_perfurante`, `carga_incendiaria`, `carga_fumaca`, `granada_fumaca`, `mina_terrestre`, `mina_antidrone`, `mina_naval`, `missil_cruzeiro`.
+**Itens do `/sam dar`:** `foguete_guiado`, `missil_sam`, `radar`, `lancador`, `link`, `monitor` (Mesa de Radar), `missil_balistico`, `silo`, `comporta`, `satelite`, `missil_antissatelite`, `terminal`, `base_drones`, `drone_patrulha`, `drone_reconhecimento`, `drone_kamikaze`, `flare`, `chaff`, `dispensador`, `bloqueador_portatil`, `bloqueador`, `ciws`, `municao_ciws`, `carga_emp`, `sirene`, `bloco_acao`, `combustivel_foguete`, `circuito`, `ogiva_multipla`, `ponta_perfurante`, `carga_incendiaria`, `carga_fumaca`, `granada_fumaca`, `mina_terrestre`, `mina_antidrone`, `mina_naval`, `missil_cruzeiro`, `kit_reparo`, `deposito`, `camera_seguranca`, `tela_camera`, `tablet`.
 
 Exemplo: `/sam dar Steve missil_balistico 4 3` entrega 4 Mísseis Balísticos com duração de voo 3.
 

@@ -78,4 +78,4 @@ Clique direito com a mina coloca ela no mundo. Ela **arma 3 s depois**.
 
 ---
 
-← [EMP e alertas da base](EMP-e-Alertas.md) · Próximo: [Comandos e permissões](Comandos-e-Permissoes.md) →
+← [EMP e alertas da base](EMP-e-Alertas.md) · Próximo: [Vida, contrabateria e depósito](Base.md) →
