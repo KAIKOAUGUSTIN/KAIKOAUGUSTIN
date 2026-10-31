@@ -15,7 +15,11 @@ Os números amarelos nos desenhos abaixo correspondem à legenda de cada tela.
 
 ![Painel do /sam](img/menus/painel.svg)
 
-Na 2.4.0 o painel ganhou o botão **Minas** (embaixo, à esquerda do Fechar): a lista das suas minas, da mais perto para a mais longe. Clicar numa tira a mina do mundo e devolve o item. Veja [Ogivas e minas](Ogivas-e-Minas.md#minas).
+**3.1.0:** o painel tem 6 linhas, por grupos: **Ataque** (silos, lançadores, radares, comportas, modo da besta), **Defesa** (defesa, minas, alertas, câmeras), **Logística** (drones, robôs, depósitos, fabricar) e **Comunicação** (satélite, contrabateria, aliados); embaixo, **Como funciona** e **Fechar**. (A imagem acima ainda é a do painel antigo.)
+
+Em toda tela, **Voltar** fica no canto de baixo à esquerda e **Fechar** no de baixo à direita. Onde se marca um ponto ou uma área, dá para clicar com a Ferramenta de Link ou usar **[Usar minha posição]** no chat.
+
+**Minas:** a lista das suas minas, da mais perto para a mais longe. Clicar numa abre a tela dela. Veja [Ogivas e minas](Ogivas-e-Minas.md#minas).
 
 ## Fabricar
 
@@ -86,7 +90,7 @@ Veja [EMP e alertas da base](EMP-e-Alertas.md).
 
 ## Administração (só admins)
 
-O botão **Administração** aparece só para quem tem a permissão `missil.admin`. Veja [Administração](Administracao.md).
+Desde a 3.1.0 a administração não fica mais no painel: quem tem a permissão `missil.admin` abre com **`/sam admin`**. Veja [Administração](Administracao.md).
 
 ---
 

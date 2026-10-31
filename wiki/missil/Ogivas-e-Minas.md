@@ -52,7 +52,7 @@ Só vai no **Míssil Balístico**. Uns 3 s antes de chegar, o míssil se divide 
 
 ## Granada de Fumaça
 
-Clique direito arremessa a granada. Onde ela cair, sai uma **nuvem de 6 m por 20 s**, com as mesmas regras da ogiva de fumaça. Serve para fugir de quem está te travando com a besta ou para cegar a câmera de um drone.
+Clique direito arremessa a granada. Onde ela cair, sai uma **nuvem de 9 m por 30 s** (desde a 3.1.0, bem mais densa: não dá para ver quem está atrás), com as mesmas regras da ogiva de fumaça. Serve para fugir de quem está te travando com a besta ou para cegar a câmera de um drone.
 
 ## Minas
 
@@ -64,7 +64,7 @@ Clique direito com a mina coloca ela no mundo. Ela **arma 3 s depois**.
 | **Antidrone** | em cima de um bloco sólido | derruba o primeiro drone ou kamikaze inimigo que passar a até 8 m. Serve uma vez só |
 | **Naval** | na superfície da água | boia e explode com barcos e nadadores inimigos a até 2 m |
 
-**Quem aciona.** Só inimigos: você, os seus aliados e quem é do mesmo time não acionam as suas minas. Mobs não acionam (a não ser que o admin ligue).
+**Quem aciona.** Você, os seus aliados e quem é do mesmo time nunca acionam as suas minas. O resto, cada mina escolhe na tela dela (3.1.0): **jogadores inimigos**, **veículos**, **monstros** (o creeper inclusive) e **animais**. Uma mina nova vem com jogadores, veículos e monstros ligados. Na mesma tela: o **atraso** do clique até a explosão (0 a 3 s) e a **potência** (100%, 75%, 50% ou 25%).
 
 **Ver as minas.** A terrestre é quase rente ao chão e tem a cor do bloco de baixo. Só você e os aliados veem a **marca** das suas minas, segurando uma mina ou a Ferramenta de Link: vermelha (terrestre), azul-clara (antidrone) ou azul (naval); cinza enquanto ainda arma. Um [drone de reconhecimento](Drones.md) seu **revela** por 1 minuto as minas inimigas que vê (marca laranja).
 
@@ -74,7 +74,7 @@ Clique direito com a mina coloca ela no mundo. Ela **arma 3 s depois**.
 
 **Alerta.** A [Sirene e o Bloco de Ação](EMP-e-Alertas.md) têm o alerta **Mina acionada**: uma mina sua a até o raio deles foi acionada. Você também recebe uma mensagem.
 
-**Menu.** `/sam` → **Minas** lista as suas minas, da mais perto para a mais longe. Clicar numa tira a mina do mundo e devolve o item. Cada jogador pode ter até 50 minas.
+**Menu.** `/sam` → **Minas** lista as suas minas, da mais perto para a mais longe. Clicar numa abre a tela dela (quem aciona, atraso, potência e **Tirar a mina**, que devolve o item). Cada jogador pode ter até 50 minas.
 
 ---
 

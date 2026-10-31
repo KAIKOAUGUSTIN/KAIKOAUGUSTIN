@@ -91,10 +91,11 @@ O botão **Drones da base**, no menu da base, abre a lista de todos os drones de
 
 Clique num drone no ar, na lista **Drones da base**:
 
-- **Ver câmera:** você vê de onde o drone está e olha em volta. Ele continua sozinho: a patrulha segue a rota e atira, e o reconhecimento segue a missão. A barra de cima mostra a bateria, o tempo de voo, o que ele está fazendo e as flechas. **Shift** volta para o seu corpo.
-- **Pilotar:** o drone voa para onde você olha.
-  - Na **patrulha**, o **clique esquerdo atira uma flecha** para onde você mira, uma por segundo, das flechas que o drone leva. **Shift** devolve o drone à rota.
-  - No **reconhecimento**, **Shift** faz ele vigiar onde está.
+- **Ver câmera:** você vê de **embaixo** do drone e olha em volta. Ele continua sozinho: a patrulha segue a rota e atira, e o reconhecimento segue a missão. A barra de cima mostra a bateria, o tempo de voo, o que ele está fazendo e as flechas.
+- **Pilotar (3.1.0: pelo teclado):** **W/S** para a frente e para trás na direção em que você olha, **A/D** para os lados, **pular** sobe, **agachar** desce, **correr** é turbo. Sem tecla, ele para no ar. O mouse só olha.
+  - Na **patrulha**, o **clique esquerdo atira uma flecha** para onde você mira, uma por segundo, das flechas que o drone leva.
+- **Hotbar de controle (3.1.0):** enquanto você pilota ou vê, a sua hotbar vira os botões **Atirar** (patrulha), **Voltar para a base** e **Sair**. Agachar não tira mais você do drone. Os seus itens voltam quando você sai, quando o drone cai ou explode, e até se o servidor cair.
+  - **Sair:** a patrulha volta para a rota; o reconhecimento fica vigiando onde está.
 - **Chamar de volta:** só este drone volta para a base.
 
 Como o FPV do kamikaze, o seu corpo fica parado onde você estava, e você volta para ele no fim. Ver a câmera e pilotar precisam de comunicação com a base, como os outros equipamentos. Dentro de um bloqueador inimigo o sinal cai. Só uma pessoa pilota cada drone, mas várias podem ver a câmera.
@@ -114,7 +115,7 @@ Como o FPV do kamikaze, o seu corpo fica parado onde você estava, e você volta
 ### Kamikaze
 
 - **Sozinho:** o alvo pode ser um ponto, um jogador ou um equipamento inimigo marcado no mapa do satélite, umas coordenadas ou o bloco que você olha. Ele decola reto, cruza 20 m acima do terreno a ~25 m/s e mergulha no alvo. Um jogador é perseguido enquanto o kamikaze o vê; se ele sumir, o kamikaze vai ao último lugar onde o viu. **Alcance: 1200 m.**
-- **Pilotado:** decola da base e você pilota em FPV de onde estiver, como o foguete da besta (o seu corpo fica no lugar). **Shift** sai, e ele se desfaz no ar.
+- **Pilotado:** decola da base e você pilota em FPV de onde estiver (o seu corpo fica no lugar), olhando de embaixo dele. Desde a 3.1.0, pelo teclado: **W** vai para onde você olha (dá para mergulhar), sem W ele segue reto, **A/D** fazem a curva, **pular/agachar** sobem e descem. Na hotbar: **Explodir** (explode onde está) e **Sair** (ele se desfaz no ar).
 - **Ogiva:** a TNT da base, até **4 por kamikaze** (1 TNT = uma TNT normal). É uma explosão normal do jogo: quebra blocos com `mobGriefing` ligada.
 - O alvo vê na tela **"⚠ DRONE"** com a distância.
 
@@ -122,7 +123,8 @@ Como o FPV do kamikaze, o seu corpo fica parado onde você estava, e você volta
 
 - Vai até o ponto (ou até o jogador marcado, e o acompanha) a **30 m do chão** e vigia em círculo por **90 s**.
 - Os inimigos que ele vê a até **96 m** entram na **sua rede de radares**: aparecem na Mesa e no Terminal, e os SAMs atiram se estiverem ao alcance de um lançador.
-- **Pilotado:** você leva o drone em FPV para onde olha. **Shift** sai, e ele fica vigiando onde está. Um reconhecimento que já está no ar também pode ser visto ou pilotado pela lista [Drones da base](#drones-da-base).
+- **Pilotado:** você leva o drone pelo teclado, como a patrulha. **Sair** deixa ele vigiando onde está. Um reconhecimento que já está no ar também pode ser visto ou pilotado pela lista [Drones da base](#drones-da-base).
+- **Só de ida (3.1.0):** ele **fica no ponto** até a bateria acabar e aí **cai e quebra**. Só volta sozinho se você **chamar de volta** (no menu ou no botão da hotbar).
 
 ## De longe
 

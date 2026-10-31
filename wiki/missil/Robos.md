@@ -54,6 +54,8 @@ Com a **Ferramenta de Link**, clicar num robô faz dele a fonte da próxima [Tel
 - **Preso** por um minuto, tenta cavar para sair e depois avisa você.
 - **De longe** (mais de 500 m) só dá ordem com [satélite](Satelite.md); dentro de um bloqueador inimigo ele fica sem sinal (continua a tarefa, mas não aceita ordem nem câmera); o EMP desliga o robô por 60 s.
 - **Servidor desligando:** os robôs fora voltam para a estação com a mochila e retomam a tarefa quando ele liga.
+- **Andar e ir longe (3.1.0).** O robô anda sem parar a cada passo (segue o caminho enquanto calcula o próximo trecho), corta caminho quando a reta está livre e corre em reta. Para voltar de longe, ele refaz **o próprio caminho de trás para a frente**, que sempre passa. Os chunks à frente ficam carregados enquanto ele anda. Se mesmo assim ele não achar caminho, avisa você com as coordenadas antes de a bateria acabar.
+- **Tudo volta para a estação (3.1.0).** Ao chegar, o robô entrega o equipamento (vai para os **Suprimentos**) e a mochila (vai para a **Carga**). Ele fica guardado sem nada e pega o que precisa ao sair de novo.
 - Cada jogador pode ter até **5 robôs no mundo** ao mesmo tempo.
 - A [Mesa de Radar](Mesa-de-Radar.md) e o Terminal mostram os seus robôs (quadrado azul-claro) e as estruturas que os exploradores acharam (losango roxo).
 
@@ -62,7 +64,9 @@ Com a **Ferramenta de Link**, clicar num robô faz dele a fonte da próxima [Tel
 ## Robô de Defesa
 
 - **Modos:** guardar a estação (raio), guardar um ponto (clique num bloco com a Ferramenta de Link), patrulhar uma rota (clique nos blocos da rota; no ar termina) ou **seguir você**.
-- **Alvos:** jogadores inimigos, monstros e animais, cada um com sua chave. Primeiro quem está atacando você ou um robô seu. Endermen, só se atacarem.
+- **Alvos:** jogadores inimigos, monstros e animais, cada um com sua chave. Endermen, só se atacarem.
+- **Quem ele escolhe (3.1.0):** só quem ele **vê** e consegue alcançar (um mob enterrado ou atrás da parede não conta, a não ser que tenha atacado). Primeiro quem atacou você, um robô ou um equipamento; depois jogadores inimigos; monstros atacando alguém; os outros monstros; animais. Nenhum mob tem prioridade especial, e entre iguais vai no mais perto dele. Ele não fica trocando de alvo.
+- **Luta certa para cada mob (3.1.0, todos os robôs):** creeper — bate e se afasta, e foge quando ele acende (com arco, atira de longe); esqueleto e outros que atiram — chega perto em zigue-zague de escudo; aranha — espera o pulo de escudo; enderman — não olha para a cabeça; bruxa — chega rápido; slime — se afasta dos pedaços; jogador — golpe crítico e escudo.
 - Um inimigo no chão que a sua [rede de radares](Radar-e-Misseis-SAM.md) vê perto da estação chama os robôs de defesa.
 
 ## Robô Minerador
@@ -70,6 +74,7 @@ Com a **Ferramenta de Link**, clicar num robô faz dele a fonte da próxima [Tel
 - **Até quando:** sem parar, até ter um tanto de um item (por exemplo 64 diamantes), até um tanto de pilhas, ou por um tempo.
 - **Minério:** escolha qual. Ele desce **em escada** (nunca reto para baixo) até a melhor altura daquele minério naquela dimensão: diamante perto de Y −59, ferro em 16, ouro em −16, detrito antigo em 15 no Nether, quartzo em 40.
 - **Como acha o minério, sozinho:** abre **túnel em galhos**, **segue cavernas** que viu ou **segue um veio** que apareceu, e troca de jeito conforme rende mais.
+- **Sempre de olho (3.1.0):** em qualquer momento (até descendo a escada), um minério que ele vê por perto é minerado na hora, e ele volta para onde estava.
 - **Cuidados:** tampa a lava que aparece, não pisa em lava, quebra o bloco embaixo do cascalho e da areia **sem eles caírem**, não aceita queda de mais de 3 blocos, põe tocha no escuro e evita água funda.
 - **O que guarda:** só minérios e valiosos (padrão), tudo menos pedra, terra e cascalho, ou tudo.
 - **Ao chegar** à estação, descarrega e manda um relatório, por exemplo "23 raw iron, 4 diamond, 2 baús, 2 lutas". Depois **volta ao ponto onde parou**.
@@ -90,13 +95,24 @@ Com a **Ferramenta de Link**, clicar num robô faz dele a fonte da próxima [Tel
 
 ## Robô Trabalhador
 
-Monte a **fila de tarefas** no menu dele (clique esquerdo numa tarefa sobe ela; direito tira):
+Monte a **fila de tarefas** no menu dele (clique esquerdo numa tarefa abre ela: equipe e subir; direito tira). Os pontos e cantos vão com a Ferramenta de Link ou com **[Usar minha posição]** no chat.
 
-1. **Levar itens:** clique no baú A e depois no baú B com a Ferramenta de Link. O filtro é o item na sua mão (sem nada, leva tudo). Com **Repetir** ligado, ele fica levando sempre: é a logística entre bases, até em outra dimensão (ele atravessa o portal do Nether).
-2. **Limpar área:** clique nos dois cantos (até 32 blocos de cada lado). Ele limpa de cima para baixo, junta os drops e pula baús e equipamentos.
+1. **Levar itens:** clique no baú A e depois no baú B com a Ferramenta de Link. O filtro é o item na sua mão (sem nada, leva tudo). Com **Repetir** ligado, ele fica levando sempre: é a logística entre bases, até em outra dimensão (ele atravessa o portal do Nether). Desde a 3.1.0 ele leva tudo numa **carga separada** e entrega **tudo** em B: não fica com ferramenta nem armadura de ninguém.
+2. **Limpar área:** clique nos dois cantos (**sem limite de tamanho** desde a 3.1.0). Ele limpa de cima para baixo, junta os drops e pula baús e equipamentos.
 3. **Consertar equipamentos:** usa os Kits de Reparo da estação nos seus equipamentos danificados perto dela.
 4. **Reabastecer:** clique num Depósito de Munição e depois num equipamento longe dele: o robô leva a munição.
-5. **Resgatar:** escolha um robô seu sem bateria; ele vai lá e religa com uma Bateria Reserva.
+5. **Resgatar:** escolha um robô seu sem bateria; ele vai lá pelo caminho que o outro fez e religa com uma Bateria Reserva. Vai um robô só.
+6. **Obras (3.1.0)**, bloco por bloco, como um construtor, com o bloco que você pôs nos **Suprimentos** da estação (quando acaba, ele busca mais e continua):
+   - **Construir muro:** duas pontas e a altura. A altura conta a partir do chão de cada coluna (o muro acompanha o relevo), a base desce até o chão firme, e **na água** ele começa no fundo e sobe a altura acima do nível da água. Espessura de 1 a 3.
+   - **Construir caixa:** dois cantos: paredes, piso e teto.
+   - **Preencher área:** enche o que é ar ou água.
+   - **Trocar blocos:** tira um bloco (mão secundária) e põe outro (mão principal).
+
+   O bloco é o que está na sua mão quando você clica no botão.
+
+### Equipes (3.1.0)
+
+Vários trabalhadores da mesma estação podem fazer **a mesma tarefa**: clique na tarefa e marque os robôs da **Equipe**. Ela é dividida em **partes iguais** — a área e o muro em faixas do mesmo tamanho, a quantidade de itens em partes iguais (90 com 3 robôs = 30 cada), os equipamentos a consertar divididos. Se um sai no meio, o que faltava dele é repartido por igual entre os outros; se um termina antes, o que falta é repartido de novo contando com ele. **Resgatar** e **reabastecer** são de um robô só.
 
 ---
 
