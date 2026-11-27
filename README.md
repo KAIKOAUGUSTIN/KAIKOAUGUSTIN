@@ -6,38 +6,14 @@
 
 
 
-<p align="left">👋 Hello, I'm Kaio, but you can call me Comkas<br>🌱 Currently building a projection mapping app and Minecraft plugins<br><br>Projects:<br>🎞️ <a href="https://github.com/KAIKOAUGUSTIN/Anamorph" target="_blank" rel="noreferrer external">Anamorph</a> - Projection mapping for one canvas and any number of projectors: corner pin, mesh warp, masks and soft-edge blending (Windows, macOS and Linux)<br>📶 <a href="https://github.com/KAIKOAUGUSTIN/cloudflare-ddns" target="_blank" rel="noreferrer external">Cloudflare DDNS Updater</a> - Keeps Cloudflare DNS records in sync with your public IP, running as a systemd service<br>🩵 <a href="https://github.com/KAIKOAUGUSTIN/heartbeat" target="_blank" rel="noreferrer external">Heartbeat.py</a> - A simple script to check my server status<br>
+<p align="left">👋 Hello, I'm Kaio, but you can call me Comkas<br>🌱 Currently building a projection mapping app and Minecraft plugins<br><br>Projects:<br>🎞️ <a href="https://github.com/KAIKOAUGUSTIN/Anamorph" target="_blank" rel="noreferrer external">Anamorph</a> - Projection mapping for one canvas and any number of projectors: corner pin, mesh warp, masks and soft-edge blending (Windows, macOS and Linux)<br>🚁 <a href="https://github.com/KAIKOAUGUSTIN/tello" target="_blank" rel="noreferrer external">Tello Pilot</a> - Client for the DJI/Ryze Tello drone with the protocols written from scratch: live video, HUD and touch, keyboard and Xbox controls (Windows, macOS, Linux, Android and iOS)<br>🏹 <a href="https://github.com/KAIKOAUGUSTIN/ManhuntStar" target="_blank" rel="noreferrer external">ManhuntStar</a> - ManHunt hunter bots that play like real players, for Paper, Fabric and NeoForge<br>📶 <a href="https://github.com/KAIKOAUGUSTIN/cloudflare-ddns" target="_blank" rel="noreferrer external">Cloudflare DDNS Updater</a> - Keeps Cloudflare DNS records in sync with your public IP, running as a systemd service<br>🩵 <a href="https://github.com/KAIKOAUGUSTIN/heartbeat" target="_blank" rel="noreferrer external">Heartbeat.py</a> - A simple script to check my server status<br>
 
 
 
 <br clear="both">
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" height="40" alt="qt logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg" height="40" alt="opengl logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cloudflare" height="40" alt="cloudflare logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=powershell" height="40" alt="powershell logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bots" height="40" alt="abbrobotstudio logo"  />
+  <img src="https://skillicons.dev/icons?i=python,java,kotlin,rust,tauri,ts,js,html,css,qt,linux,docker,gradle,git,github,cloudflare,powershell,bots" alt="skills" />
 </div>
 
 ###
